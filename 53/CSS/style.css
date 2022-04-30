@@ -1,0 +1,211 @@
+/* font */
+@font-face {
+    font-family: "yekan";
+    src: url("../FONT/B_Yekan/Yekan.ttf");
+}
+
+body{
+    font-size: 18px;
+    font-family: 'yekan';
+
+}
+
+.menu{
+    height: 100px;
+    padding-top: 20px;
+}
+.menu li{
+    display: inline-block;
+    padding: 15px;
+}
+ul{
+    list-style-type: none;
+}
+.icon{
+    font-size: 12px;
+    margin-right: 5px;
+    color: rgb(43, 39, 39);
+    
+}
+.logo{
+    max-width: 133px;
+    max-height: 72px;
+    float: right;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+.img{
+    background-color: rgb(129, 185, 25);
+    background-blend-mode: multiply;
+    height: 400px;
+    background-image: url("../IMG/page-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 10px;
+    padding-top: 80px;
+}
+span{
+    color: yellow;
+}
+i{
+    font-size: 200px;
+}
+
+/* color */
+.orange{
+    background-color: rgb(238, 174, 79);
+}
+.blue{
+    background-color: rgb(73, 148, 233);
+}
+.violet{
+    background-color: rgb(180, 47, 233);
+}
+.green{
+    background-color: rgb(104, 226, 104);
+}
+.red{
+    background-color: rgb(241, 65, 65);
+}
+
+/* box shadow */
+.box-shadow1{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.box-shadow2 , .box-shadow3{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.box-shadow2 a{
+    text-decoration: none;
+    color: black;
+}
+ .b-rad7{
+     border-radius: 7px;
+ }
+
+ /* pading */
+.pad{
+    padding: 25px 15px;
+}
+
+.pad2{
+    padding: 15px 10px;
+}
+
+.p-right10{
+    padding-right: 10px;
+}
+.p-right30{
+    padding-right: 30px;
+}
+
+.p-top10{
+  padding-top: 10px;
+}
+.p-top20{
+    padding-top: 20px;
+}
+
+.p-top30{
+    padding-top: 30px;
+}
+
+.p-top40{
+    padding-top: 40px;
+}
+
+.p-top50{
+    padding-top: 50px;
+}
+
+.p-top70{
+    padding-top: 70px;
+}
+
+.p-bot10{
+    padding-bottom: 10px;
+}
+.p-bot20{
+    padding-bottom: 20px;
+}
+.p-bot30{
+    padding-bottom: 30px;
+}
+.p-bot40{
+    padding-bottom: 40px;
+}
+.p-bot50{
+    padding-bottom: 50px;
+}
+.p-bot80{
+    padding-bottom: 80px;
+}
+
+.footer{
+    background-color: #353338;
+    color:#fff ;
+    
+}
+
+.icon-fone{
+    float: right;
+    margin-left:8px;
+}
+
+.fluid-Social-Networks{
+    background-color: #353338;
+    padding: 15px 80px;
+
+}
+.fluid-Social-Networks p{
+    color: #000;
+   margin-right: -65px;
+}
+.Social-Networks {
+    float: left;
+    
+    margin-left: -20px;
+}
+.Social-Networks li{
+    margin: 0 10px;
+}
+/* teacher */
+.teacher {
+    float: left;
+    margin:0 10px ;
+    color: gray;
+   
+}
+.icon-teacher{
+    margin-right: 170px;
+    color: gray;
+}
+
+.student{
+    /* box-sizing: border-box; */
+    margin-top: 10px;
+    border-top: 1px solid gray;
+    position: relative;
+}
+.right , .left{
+    display: inline-block;
+}
+.left{
+    position: absolute;
+    left: 40px;
+    top: 30px;
+}
+.right{
+    position: absolute;
+    right: 40px;
+    top: 30px;
+}
+.members{
+    margin-left: 15px;
+}
+
